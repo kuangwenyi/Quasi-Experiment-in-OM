@@ -19,8 +19,8 @@ load_pkg1 = lapply(pkg1, library, character.only=TRUE)
 wrds <- dbConnect(Postgres(),
                   host = 'wrds-pgdata.wharton.upenn.edu',
                   port = 9737,
-                  user = 'kuangwenyi',
-                  password = '+d*Y!LR-7PM2ukQ',
+                  user = 'username', # change to your own username
+                  password = 'password', # change to your own password
                   dbname = 'wrds',
                   sslmode = 'require')
 
